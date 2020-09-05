@@ -41,7 +41,7 @@ public class TestUser {
     @Test
     public void updateUser(){
         NewUser inputUser = new NewUser();
-        inputUser.setName("piyus kumar");
+        inputUser.setName("piyus kumar srivastava");
         //inputUser.setJob("student");
 
         NewUser updatedUser = given()
