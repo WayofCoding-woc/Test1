@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efe3d5fb-fb26-4b33-b375-ec184275fe90" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gnxzAeUTgSYyZchMbsTAO5EGLh" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunManager" selected="TestNG.TestUser.createUser">
+    <configuration name="TestReqResponse.getUsersDataAndLogIt1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Day-42-Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.woc" />
+      <option name="MAIN_CLASS_NAME" value="com.woc.TestReqResponse" />
+      <option name="METHOD_NAME" value="getUsersDataAndLogIt1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.createUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Day-42-Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.woc" />
+      <option name="MAIN_CLASS_NAME" value="com.woc.TestUser" />
+      <option name="METHOD_NAME" value="createUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestUser.updateUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Day-42-Rest-Assured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.woc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.woc" />
+      <option name="MAIN_CLASS_NAME" value="com.woc.TestUser" />
+      <option name="METHOD_NAME" value="updateUser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestUser.createUser" />
+        <item itemvalue="TestNG.TestUser.updateUser" />
+        <item itemvalue="TestNG.TestReqResponse.getUsersDataAndLogIt1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efe3d5fb-fb26-4b33-b375-ec184275fe90" name="Default Changelist" comment="" />
+      <created>1598764417495</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598764417495</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="508" y="83" width="548" height="626" key="#com.intellij.ide.util.MemberChooser" timestamp="1598766873461">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="508" y="83" width="548" height="626" key="#com.intellij.ide.util.MemberChooser/35.27.1331.741@35.27.1331.741" timestamp="1598766873461" />
+    <state width="1285" height="322" key="GridCell.Tab.0.bottom" timestamp="1598767714628">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="322" key="GridCell.Tab.0.bottom/35.27.1331.741@35.27.1331.741" timestamp="1598767714628" />
+    <state width="1285" height="322" key="GridCell.Tab.0.center" timestamp="1598767714628">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="322" key="GridCell.Tab.0.center/35.27.1331.741@35.27.1331.741" timestamp="1598767714628" />
+    <state width="1285" height="322" key="GridCell.Tab.0.left" timestamp="1598767714628">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="322" key="GridCell.Tab.0.left/35.27.1331.741@35.27.1331.741" timestamp="1598767714628" />
+    <state width="1285" height="322" key="GridCell.Tab.0.right" timestamp="1598767714628">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state width="1285" height="322" key="GridCell.Tab.0.right/35.27.1331.741@35.27.1331.741" timestamp="1598767714628" />
+    <state x="189" y="31" key="SettingsEditor" timestamp="1598765358270">
+      <screen x="35" y="27" width="1331" height="741" />
+    </state>
+    <state x="189" y="31" key="SettingsEditor/35.27.1331.741@35.27.1331.741" timestamp="1598765358270" />
+  </component>
+</project>
