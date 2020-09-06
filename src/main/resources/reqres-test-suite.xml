@@ -3,7 +3,7 @@
 <suite name="Rest Assured Test Suite" verbose="1">
     <test name="Request Response Test">
         <classes>
-            <!--<class name="com.woc.TestReqResponse"></class>-->
+            <class name="com.woc.TestReqResponse"></class>
             <class name="com.woc.TestUser"></class>
         </classes>
     </test>
