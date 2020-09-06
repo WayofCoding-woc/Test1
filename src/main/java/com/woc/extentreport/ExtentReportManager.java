@@ -28,7 +28,7 @@ public class ExtentReportManager {
 
     private ExtentReports createExtentReportsInstance() {
         ExtentReports extentReports = new ExtentReports();
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("./test-output/extent-report/extent-report.html");
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("test-output/extent-report/extent-report.html");
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Browser", "Chrome");
 
