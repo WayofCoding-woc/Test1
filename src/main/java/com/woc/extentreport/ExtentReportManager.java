@@ -28,7 +28,9 @@ public class ExtentReportManager {
 
     private ExtentReports createExtentReportsInstance() {
         ExtentReports extentReports = new ExtentReports();
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/extent-report/extent-report.html");
+        //for now we are hardcoding the extent report file path to work in jenkins,
+        // but we will be fixing it in upcoming classes, as we should not hard code.
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("/srv/Idea-Workspace/sonu-piyus-git/Test1/test-output/extent-report/extent-report.html");
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Browser", "Chrome");
 
