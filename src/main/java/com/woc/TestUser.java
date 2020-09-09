@@ -15,7 +15,7 @@ public class TestUser {
 
     @Test
     public void createUser(){
-        NewUser inputUser = new NewUser();
+        NewUser inputUser = null;//new NewUser();
         inputUser.setName("piyus");
         inputUser.setJob("student");
 
