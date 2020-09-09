@@ -5,6 +5,8 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import java.io.File;
+
 public class ExtentReportManager {
     private static ExtentReportManager extentReportManager = new ExtentReportManager();//thread safe singleton
 
@@ -28,7 +30,8 @@ public class ExtentReportManager {
 
     private ExtentReports createExtentReportsInstance() {
         ExtentReports extentReports = new ExtentReports();
-        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("reports/extent-report.html");
+
+        ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("reports"+ File.separator +"extent-report.html");
         extentReports.setSystemInfo("OS", System.getProperty("os.name"));
         extentReports.setSystemInfo("Browser", "Chrome");
 
