@@ -1,1 +1,11 @@
 all test reports can be exported into this directory
+
+important notes about the reports not loading due to css in jenkins
+--------------------------------------------------------------------
+steps(1)- go to the below settings page
+Jenkins->Manage Jenkins->Script Console
+
+steps(2)- put the below groovy script and click on Run button
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
+
+steps(3)- build your project again in jenkins and see the report should be loading with all css properly.
