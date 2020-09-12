@@ -2,6 +2,9 @@ package com.woc;
 
 import com.woc.pojo.ResponseData;
 import com.woc.pojo.User;
+import com.woc.util.PropertyUtil;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -10,7 +13,9 @@ import java.util.List;
 import static io.restassured.RestAssured.given;
 
 public class TestUser_DataDrivenTesting5 {
-    private static final String BASE_URL = "https://reqres.in";
+    private static final Logger logger = LogManager.getLogger(TestUser_DataDrivenTesting5.class);
+
+    private static final String BASE_URL = PropertyUtil.getProperty("test.rest.api.base.url");
 
     @DataProvider(name = "user-data")
     private Object[][] getUsers(){
@@ -24,6 +29,8 @@ public class TestUser_DataDrivenTesting5 {
 
     @Test(dataProvider = "user-data")
     public void getUsers(Integer id){
+        logger.info("getUsers request has come for id="+id);
+
         ResponseData responseData = given()
                 .queryParam("page", id)
                 .get(BASE_URL + "/api/users")
@@ -36,7 +43,7 @@ public class TestUser_DataDrivenTesting5 {
 
         List<User> data = responseData.getData();
         System.out.println("***********************************");
-        data.stream().forEach(System.out::println);
+        data.stream().forEach(logger::info);
         System.out.println("***********************************");
 
     }
