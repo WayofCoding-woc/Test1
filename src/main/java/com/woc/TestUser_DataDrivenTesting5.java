@@ -12,6 +12,8 @@ import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
+//logger level order
+//ALL < DEBUG < INFO < WARN < ERROR < FATAL < OFF.
 public class TestUser_DataDrivenTesting5 {
     private static final Logger logger = LogManager.getLogger(TestUser_DataDrivenTesting5.class);
 
@@ -42,9 +44,9 @@ public class TestUser_DataDrivenTesting5 {
                 .as(ResponseData.class);
 
         List<User> data = responseData.getData();
-        System.out.println("***********************************");
+        logger.debug("***********************************");
         data.stream().forEach(logger::info);
-        System.out.println("***********************************");
+        logger.error("###################");
 
     }
 

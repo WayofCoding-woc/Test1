@@ -3,11 +3,13 @@
     <Properties>
         <!--<Property name="basePath">C:\\logs</Property>-->
         <Property name="basePath">logs</Property>
+        <Property name="logFileName">automation-test</Property>
     </Properties>
 
     <Appenders>
-        <RollingFile name="fileLogger" fileName="${basePath}/automation-test.log" filePattern="${basePath}/automation-test-%d{yyyy-MM-dd}.log">
+        <RollingFile name="fileLogger" fileName="${basePath}/${logFileName}.log" filePattern="${basePath}/${logFileName}-%d{yyyy-MM-dd}.log">
             <PatternLayout>
+                <!-- please refer this site for pattern layout format https://logging.apache.org/log4j/2.x/manual/layouts.html-->
                 <pattern>[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %logger{36}:%line - %msg%n</pattern>
             </PatternLayout>
 
@@ -19,6 +21,7 @@
         </RollingFile>
 
         <Console name="console" target="SYSTEM_OUT">
+            <!-- please refer this site for pattern layout format https://logging.apache.org/log4j/2.x/manual/layouts.html-->
             <PatternLayout  pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %logger{36}:%line - %msg%n" />
         </Console>
     </Appenders>
