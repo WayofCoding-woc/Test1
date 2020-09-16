@@ -1,0 +1,1 @@
+java -jar spring-rest-security-1.0.jar

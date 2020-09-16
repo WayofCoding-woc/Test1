@@ -1,0 +1,13 @@
+Steps - firstly we need to start the basic-auth-api-server where our api exists,
+ for this - go to the folder where server jar exists, using the below command
+[Note : make sure you have the java 14 or above installed in  you computer]
+step-1 : open the command prompt or terminal
+step-2 :  cd Test1/api-auth-test-lecture-notes/basic-auth-api-server/
+step-3 : run the server using below command in terminal(command-promopt)
+java -jar spring-rest-security-1.0.jar
+step-4 : open the browser and hit this url
+http://localhost:8979/api/employee?email=sonu@gmail.com
+step-5 : Now it will ask for basic authentication for this- fill either
+ username=sonu and password=pwd
+ or
+ username=piyus and password=pass

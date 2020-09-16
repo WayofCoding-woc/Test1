@@ -1,0 +1,7 @@
+Steps-1 : double click on this file(run-basic-auth-server.bat)
+step-2 : open the browser and hit this url
+http://localhost:8979/api/employee?email=sonu@gmail.com
+step-3 : Now it will ask for basic authentication for this- fill either
+ username=sonu and password=pwd
+ or
+ username=piyus and password=pass
